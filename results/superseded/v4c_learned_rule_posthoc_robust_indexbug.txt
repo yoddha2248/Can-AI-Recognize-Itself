@@ -1,0 +1,11 @@
+POST-HOC robust fit. Learned rule (from phases of 3 training runs): period 50 (true 50), offset 0, snapshot lag 1, eta 0.02000 (true 0.02; error 0.00%), from 89 jumps
+
+Re-recognition accuracy (200 trials per level; 0.50 = chance)
+                       self-efcopy     outsider+given-rule   outsider+learned-rule
+rings                         1.00                    1.00                    0.95
+partial                       0.57                    0.57                    0.57
+total                         0.47                    0.47                    0.47
+
+per-trial agreement, self-efcopy vs outsider+learned-rule: rings 0.955, partial 1.000, total 1.000
+total agreeing trials: 591/600
+kill fires (outsider failed to learn the rule): True

@@ -1,0 +1,44 @@
+{
+  "title": "Can AI Recognize Itself? Code and results",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Code, results, pre-registration record and negatives ledger for the paper \"Can AI Recognize Itself? Why self-related indicators cannot settle machine consciousness, and what a tenth-century Kashmiri debate anticipated\". A ladder of self-related indicator tests on a minimal dynamical self-model (the Spanda Self-Model) and on GPT-2 Medium, each with its cheapest cheat, an outside observer and, for language models, an exact copy, plus scrambled-weight and non-linguistic negative controls.",
+  "creators": [
+    {
+      "name": "Hagan, Ajay",
+      "affiliation": "Spanda Research"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "machine consciousness",
+    "self-models",
+    "consciousness indicators",
+    "privileged access",
+    "introspection",
+    "negative controls",
+    "Pratyabhijñā",
+    "Utpaladeva"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23589685",
+      "relation": "isNewVersionOf",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23589038",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1038/d41586-026-03313-7",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Successor to 'Why AI Might Be Conscious — and Why No Test Can Yet Tell' (v0.1.0). Result files are CC BY 4.0 except results/transformer/b2_items.json.gz (CC BY-SA 3.0, WikiText-103); see docs/DATA_LICENSE.md."
+}

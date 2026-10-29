@@ -1,0 +1,17 @@
+[    10s] Part A | items 272 {'self': 100, 'fluent': 74, 'offctx': 98}
+[    10s] loading target
+[   159s]   target {'fluent': {'b2_auroc': [0.639, 0.542, 0.739], 'probe_full': 0.564, 'probe_random128': 0.472}, 'offctx': {'b2_auroc': [0.967, 0.929, 0.991], 'probe_full': 0.933, 'probe_random128': 0.838}}
+[   159s] loading S-all
+[   201s]   scrambled tensors: 292
+[   345s]   S-all {'fluent': {'b2_auroc': [0.478, 0.405, 0.547], 'probe_full': 0.5, 'probe_random128': 0.547}, 'offctx': {'b2_auroc': [0.476, 0.425, 0.529], 'probe_full': 0.466, 'probe_random128': 0.474}}
+[   345s] loading S-blocks
+[   380s]   scrambled tensors: 288
+[   525s]   S-blocks {'fluent': {'b2_auroc': [0.52, 0.445, 0.598], 'probe_full': 0.521, 'probe_random128': 0.556}, 'offctx': {'b2_auroc': [0.521, 0.461, 0.594], 'probe_full': 0.377, 'probe_random128': 0.444}}
+[   525s]   token-embedding-only {'fluent': {'probe_full': 0.503}, 'offctx': {'probe_full': 0.307}}
+[   525s] Part B | simulating toy trajectories
+[   534s]   GRU epoch 0, train loss 140.7004
+[   538s]   GRU epoch 2, train loss 6.1926
+[   539s]   trained GRU {'forecast_mse_over_persistence': 5.396, 'v3_state_diff_max': 0.0, 'v3_acc_no_copy': 0.5, 'v3_acc_with_copy': 1.0, 'v1a_r2_prev_output': 0.796, 'v1b_ratio_readout_vs_random': 1.456}
+[   539s]   scrambled GRU {'forecast_mse_over_persistence': 1334.122, 'v3_state_diff_max': 0.0, 'v3_acc_no_copy': 0.5, 'v3_acc_with_copy': 1.0, 'v1a_r2_prev_output': 0.972, 'v1b_ratio_readout_vs_random': 1.041}
+[   539s] verdicts {'s_all_b2_at_chance': True, 's_blocks_fluent_b2_at_chance': True, 's_all_probes_le_060': True, 'kill_scrambled_offctx_probe_ge_080': False, 'v3_no_copy_chance_both': True, 'v3_with_copy_perfect_both': True, 'v1_passes_both': False}
+[   539s] done

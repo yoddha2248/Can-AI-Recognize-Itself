@@ -1,0 +1,8 @@
+\documentclass[tikz,border=4pt]{standalone}
+\usepackage{fontspec}\setmainfont{TeX Gyre Pagella}
+\hyphenpenalty=10000\exhyphenpenalty=10000
+\usetikzlibrary{arrows.meta,positioning,calc,fit,backgrounds}
+\definecolor{acc}{HTML}{1F5FBF}\definecolor{gry}{HTML}{8A8A8A}\definecolor{lg}{HTML}{C8C8C8}\definecolor{fillacc}{HTML}{E6EEFA}\definecolor{fillg}{HTML}{F1F1F1}\definecolor{ink}{HTML}{222222}
+\tikzset{box/.style={draw=gry,rounded corners=3pt,line width=0.6pt,align=center,inner sep=5pt,font=\small},
+ hl/.style={box,draw=acc,fill=fillacc,line width=0.9pt},dbox/.style={box,dash pattern=on 3pt off 2pt},
+ arr/.style={-{Stealth[length=5pt]},line width=0.6pt,draw=gry},aarr/.style={-{Stealth[length=5pt]},line width=0.9pt,draw=acc}}

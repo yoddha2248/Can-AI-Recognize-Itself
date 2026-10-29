@@ -1,0 +1,11 @@
+Learned rule (from phases of seeds 500-502): period 50 (true 50), offset 0, snapshot lag 2, eta 0.01966 (true 0.02; error 1.69%), from 89 jumps
+
+Re-recognition accuracy (200 trials per level; 0.50 = chance)
+                       self-efcopy     outsider+given-rule   outsider+learned-rule
+rings                         1.00                    1.00                    0.85
+partial                       0.57                    0.57                    0.57
+total                         0.47                    0.47                    0.47
+
+per-trial agreement, self-efcopy vs outsider+learned-rule: rings 0.855, partial 0.985, total 1.000
+total agreeing trials: 568/600
+kill fires (outsider failed to learn the rule): True

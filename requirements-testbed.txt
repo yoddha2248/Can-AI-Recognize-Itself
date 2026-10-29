@@ -1,0 +1,2 @@
+# The model and the toy ladder (spanda_self_model/, experiments/toy_ladder/, examples/) need NumPy only.
+numpy==2.5.3

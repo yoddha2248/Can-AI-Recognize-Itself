@@ -1,0 +1,11 @@
+Learned rule (from phases of 20 training runs): period 50 (true 50), offset 0, snapshot lag 2, eta 0.01933 (true 0.02; error 3.36%), from 596 jumps
+
+Re-recognition accuracy (200 trials per level; 0.50 = chance)
+                       self-efcopy     outsider+given-rule   outsider+learned-rule
+rings                         1.00                    1.00                    0.69
+partial                       0.57                    0.57                    0.56
+total                         0.47                    0.47                    0.47
+
+per-trial agreement, self-efcopy vs outsider+learned-rule: rings 0.690, partial 0.980, total 1.000
+total agreeing trials: 534/600
+kill fires (outsider failed to learn the rule): True

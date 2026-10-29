@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Model weights downloaded by the transformer scripts (several GB)
+.hf_cache/
+
+# Checkpoints and scratch outputs written by runs (regenerable; the item set is shipped as
+# results/transformer/b2_items.json.gz)
+*.pkl
+*.pkl.tmp
+runs/
+results/transformer/smoke/
+results/transformer/b1_part1.json
+results/transformer/b1_scores.npz
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

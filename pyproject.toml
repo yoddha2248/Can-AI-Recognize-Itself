@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "can-ai-recognize-itself"
+version = "1.0.0"
+description = "Code and results for 'Can AI Recognize Itself?': the Spanda Self-Model, a ladder of self-related tests with cheats, outsiders and copies, transformer experiments, and negative controls."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Ajay Hagan" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0"]          # the model and the toy ladder need NumPy only
+
+[project.optional-dependencies]
+transformer = ["scipy", "scikit-learn", "pandas", "pyarrow", "torch", "transformers", "huggingface_hub", "safetensors", "tokenizers"]
+figures = ["matplotlib"]
+test = ["pytest"]
+
+[project.urls]
+Repository = "https://github.com/yoddha2248/Can-AI-Recognize-Itself"
+
+[tool.setuptools]
+packages = ["spanda_self_model"]

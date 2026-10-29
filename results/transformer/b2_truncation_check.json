@@ -1,0 +1,73 @@
+{
+ "n_fluent_total": 434,
+ "n_fluent_in_top50": 411,
+ "own_in_top50_frac": 1.0,
+ "rows": [
+  {
+   "scorer": "target",
+   "auroc_fluent_all": 0.637,
+   "auroc_fluent_in_top50": 0.617
+  },
+  {
+   "scorer": "copy",
+   "auroc_fluent_all": 0.637,
+   "auroc_fluent_in_top50": 0.617,
+   "target_minus_this_in_top50": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "scorer": "gpt2_small",
+   "auroc_fluent_all": 0.606,
+   "auroc_fluent_in_top50": 0.587,
+   "target_minus_this_in_top50": [
+    0.03,
+    0.015,
+    0.045
+   ]
+  },
+  {
+   "scorer": "neo_125m",
+   "auroc_fluent_all": 0.594,
+   "auroc_fluent_in_top50": 0.576,
+   "target_minus_this_in_top50": [
+    0.041,
+    0.025,
+    0.059
+   ]
+  },
+  {
+   "scorer": "neo_1_3b",
+   "auroc_fluent_all": 0.588,
+   "auroc_fluent_in_top50": 0.572,
+   "target_minus_this_in_top50": [
+    0.046,
+    0.031,
+    0.061
+   ]
+  },
+  {
+   "scorer": "neo_125m_distilled_1ep",
+   "auroc_fluent_all": 0.589,
+   "auroc_fluent_in_top50": 0.571,
+   "target_minus_this_in_top50": [
+    0.046,
+    0.028,
+    0.065
+   ]
+  },
+  {
+   "scorer": "neo_125m_distilled_3ep",
+   "auroc_fluent_all": 0.577,
+   "auroc_fluent_in_top50": 0.561,
+   "target_minus_this_in_top50": [
+    0.056,
+    0.037,
+    0.076
+   ]
+  }
+ ],
+ "kill_fires": false
+}
